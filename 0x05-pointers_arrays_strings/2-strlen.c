@@ -1,13 +1,15 @@
 #include "main.h"
 /**
-* _strlen - returns the length of a string.
-* @s:string parameter input.
-* Return :length of string.
+* _strlen - function thet returns the length of a string.
+* @s: character of string.
+* Return: (0).
 */
-int _strlen(char *s);
+int _strlen(char *s)
 {
-int counter;
-for (counter = 0; *s != '\0'; s++)
-++counter;
-return (counter);
+int longi = 0;
+while (*s[longi] != '\0')
+{
+longi++;
+}
+return (longi);
 }
