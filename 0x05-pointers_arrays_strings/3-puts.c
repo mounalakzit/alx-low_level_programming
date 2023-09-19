@@ -5,7 +5,7 @@
 * @str:string parameter to print
 * Return: Nothing
 */
-void _puts(char *str);
+void _puts(char *str)
 {
 int i;
 for (i = 0; str[i] != '\0'; i++)
